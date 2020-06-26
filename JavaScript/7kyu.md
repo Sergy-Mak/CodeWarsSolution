@@ -1,0 +1,26 @@
+### Code JS 7 kyu
+
+* [lucky number](https://www.codewars.com/kata/55afed09237df73343000042/train/javascript)
+
+```javascript
+function isLucky(n) {
+return n % 9==0;
+};
+```
+
+* [Return the closest number multiple of 10](https://www.codewars.com/kata/58249d08b81f70a2fc0001a4/train/javascript)
+
+```javascript
+const closestMultiple10 = num => {
+    let x = Math.round(num/10);
+    return ((x).toFixed(1) * 10);
+};
+```
+
+* [How many times should I go?](https://www.codewars.com/kata/57efcb78e77282f4790003d8/train/javascript)
+```javascript
+function howManyTimes(annualPrice, individualPrice) {
+    return  Math.ceil(annualPrice / individualPrice);
+  };
+```
+
