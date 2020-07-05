@@ -24,7 +24,7 @@ function howManyTimes(annualPrice, individualPrice) {
   };
 ```
 
-*[Basic Calculator](https://www.codewars.com/kata/5296455e4fe0cdf2e000059f/train/javascript)
+* [Basic Calculator](https://www.codewars.com/kata/5296455e4fe0cdf2e000059f/train/javascript)
 ```javascript
 function calculate(num1, operation, num2) {
   if (num1 == 0 || num2 == 0 && operation == '/' ) return null;
@@ -54,14 +54,14 @@ if (difference<0||sum<0) return null;
 }
 ```
 
-*[Breaking chocolate problem](https://www.codewars.com/kata/534ea96ebb17181947000ada/train/javascript)
+* [Breaking chocolate problem](https://www.codewars.com/kata/534ea96ebb17181947000ada/train/javascript)
 ```javascript
 function breakChocolate(n,m) { 
  return n == 0 || m == 0 || n == 1 && m == 1 ? 0 : n*m-1  
 }
 ```
 
-*[Sum of angles](https://www.codewars.com/kata/5a03b3f6a1c9040084001765/train/javascript)
+* [Sum of angles](https://www.codewars.com/kata/5a03b3f6a1c9040084001765/train/javascript)
 ```javascript
 function angle(n) {
   return 180*(n-2);
