@@ -75,6 +75,13 @@ return +(discountedPrice*100/(100 - salePercentage)).toFixed(2);
 }
 ```
 
+* [Is this a triangle?](https://www.codewars.com/kata/56606694ec01347ce800001b/train/javascript)
+```javascript
+function isTriangle(a,b,c){
+   return (a + b > c && a + c > b && b + c > a)? true : false;
+}
+```
+
 
 
 
