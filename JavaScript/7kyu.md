@@ -43,7 +43,7 @@ function calculate(num1, operation, num2) {
 ```
 
 
-*[Calculate Two People's Individual Ages](https://www.codewars.com/kata/58e0bd6a79716b7fcf0013b1/train/javascript)
+* [Calculate Two People's Individual Ages](https://www.codewars.com/kata/58e0bd6a79716b7fcf0013b1/train/javascript)
 ```javascript
 function getAges(sum,difference){
 if (difference<0||sum<0) return null;
